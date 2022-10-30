@@ -22,7 +22,9 @@ header{
     display: flex;
     justify-content: space-between;
     position: sticky;
-    margin-bottom: 1vh;
+    padding-bottom: 1vh;
+    position: sticky;
+    top: 1px;
 }
 nav{
     display: flex;
@@ -47,6 +49,8 @@ main{
     justify-content: space-between;
     margin: 1.3vh;
     height: 94vh;
+    position: sticky;
+    top: 32px;
 }
 .barra-lateral div{
     display: flex;
@@ -67,6 +71,8 @@ main{
     justify-content: space-between;
     background-color: #1E2227;
     align-items: center;
+    position: sticky;
+    top:29px;
 }
 .barra-pestanas *{
     background-color: #1E2227;
