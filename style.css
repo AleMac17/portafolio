@@ -82,6 +82,9 @@ button{
     padding: 1.3vh;
     border: none;
 }
+button:hover , button:hover *{
+    background-color:#323842 ;
+}
 .botonpresionado, .botonpresionado * {
     color: white;
     background-color: #23272E;
