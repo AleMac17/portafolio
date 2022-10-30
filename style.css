@@ -16,7 +16,7 @@
 body{
     margin: 2px;
     min-height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 }
 header{
     display: flex;
