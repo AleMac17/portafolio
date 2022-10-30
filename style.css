@@ -35,7 +35,8 @@ nav img{
 }
 header div{
     display: flex;
-    gap: 1vw;
+    gap: 2vw;
+    padding-right: 3px;
 }
 main{
     display: flex;
@@ -112,5 +113,9 @@ button:hover , button:hover *{
 .lineas-grid div:hover span{
     color: rgb(143, 24, 48);
     background-color: rgb(27, 27, 27);
+    font-weight: bold;
+}
+.span-importante{
+    background-color: rgb(30, 92, 85);
     font-weight: bold;
 }
