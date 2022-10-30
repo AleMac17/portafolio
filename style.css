@@ -88,6 +88,13 @@ main{
 }
 .lineas-grid span{
     font-size: 1.3rem;
+    margin: 1px;
+}
+.lineas-grid div{
+    display: flex;
+}
+.lineas-grid div :first-child{
+    width: 1vw;
 }
 .lineas-grid {
     display: flex; 
