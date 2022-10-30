@@ -77,14 +77,17 @@ main{
     flex-direction: row;
     gap: 1vw;
 }
-.pestanas button{
-    margin: 1.3vh;
-    padding: 0;
+button{
+    background-clip: padding-box;
+    padding: 1.3vh;
     border: none;
 }
-.buttonpresionado{
+.botonpresionado, .botonpresionado * {
     color: white;
     background-color: #23272E;
+}
+.botonpresionado{
+    border-bottom: 1px solid white;
 }
 .lineas-grid span{
     font-size: 1.3rem;
