@@ -107,12 +107,14 @@ button:hover , button:hover *{
     border-right: .15em solid rgba(0, 0, 0, 0);
     overflow: hidden;
     animation: 
-    typing 5s steps(40),
     blink-caret 1s step-end 4;
+
 
 }
 .lineas-grid div{
     display: flex;
+    animation: 
+    typing 5s steps(40);
 }
 .lineas-grid div :first-child{
     width: 2.04vw;
@@ -147,7 +149,7 @@ button:hover , button:hover *{
     
     from { width: 0;   white-space: nowrap; }
     to { width: 100%;}
-    100% { white-space: wrap;}
+    100% { white-space: nowrap;}
 }
   /* The typewriter cursor effect */
 @keyframes blink-caret {
