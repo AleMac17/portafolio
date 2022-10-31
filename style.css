@@ -106,7 +106,6 @@ button:hover , button:hover *{
 .lineas-grid  span:last-of-type {
     border-right: .15em solid rgba(0, 0, 0, 0);
     overflow: hidden;
-
     animation: 
     typing 5s steps(40),
     blink-caret 1s step-end 4;
@@ -116,7 +115,7 @@ button:hover , button:hover *{
     display: flex;
 }
 .lineas-grid div :first-child{
-    width: auto;
+    width: 2vw;
 }
 .lineas-grid {
     display: flex; 
