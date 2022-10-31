@@ -82,7 +82,7 @@ main{
 .pestanas{
     display: flex;
     flex-direction: row;
-    gap: 1vw;
+    gap: 2px;
 }
 button{
     background-clip: padding-box;
