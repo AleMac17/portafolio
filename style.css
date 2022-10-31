@@ -106,7 +106,7 @@ button:hover , button:hover *{
 .lineas-grid  span:last-of-type {
     border-right: .15em solid rgba(0, 0, 0, 0);
     overflow: hidden;
-    white-space: nowrap;
+
     animation: 
     typing 5s steps(40),
     blink-caret 1s step-end 4;
@@ -145,8 +145,10 @@ button:hover , button:hover *{
 /*Animacion*/
 /* The typing effect */
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    
+    from { width: 0;   white-space: nowrap; }
+    to { width: 100%;}
+    100% { white-space: wrap;}
 }
   /* The typewriter cursor effect */
 @keyframes blink-caret {
