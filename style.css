@@ -115,7 +115,7 @@ button:hover , button:hover *{
     display: flex;
 }
 .lineas-grid div :first-child{
-    width: 2vw;
+    width: 2.1vw;
 }
 .lineas-grid {
     display: flex; 
