@@ -101,7 +101,7 @@ button:hover , button:hover *{
 }
 .lineas-grid span{
     font-size: 1.3rem;
-    margin: 1px;
+    margin: 0.5px;
 }
 .lineas-grid  span:last-of-type {
     border-right: .15em solid rgba(0, 0, 0, 0);
@@ -115,7 +115,7 @@ button:hover , button:hover *{
     display: flex;
 }
 .lineas-grid div :first-child{
-    width: 2.1vw;
+    width: 2.04vw;
 }
 .lineas-grid {
     display: flex; 
