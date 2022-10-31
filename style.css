@@ -103,11 +103,20 @@ button:hover , button:hover *{
     font-size: 1.3rem;
     margin: 1px;
 }
+.lineas-grid  span:last-of-type {
+    border-right: .15em solid rgba(0, 0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 5s steps(40),
+    blink-caret 1s step-end 4;
+
+}
 .lineas-grid div{
     display: flex;
 }
 .lineas-grid div :first-child{
-    width: 1vw;
+    width: auto;
 }
 .lineas-grid {
     display: flex; 
@@ -121,10 +130,26 @@ button:hover , button:hover *{
     background-color: rgb(27, 27, 27);
     font-weight: bold;
 }
+.lineas-grid div:hover span:last-of-type{
+
+}
+
 .span-importante{
     background-color: rgb(30, 92, 85);
     font-weight: bold;
 }
 .no-visible{
     display: none;
+}
+
+/*Animacion*/
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(41, 31, 174); }
 }
